@@ -1,0 +1,72 @@
+.questionHide {
+  /* display: none; */
+  opacity: 0.5;
+  filter: blur(4px);
+  margin-top: 50px;
+}
+
+.questionShow {
+  display: block;
+  margin-top: 50px;
+}
+
+.sub {
+
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  background: #ed3330;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  height: 50px;
+  width: 150px;
+
+}
+
+.sub:hover{
+
+  background: #63b0da;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+
+}
+
+.allQ {
+  margin-left: 30px;
+}
+
+.start {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  background: #ed3330;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.start:hover{
+
+  background: #63b0da;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+
+}

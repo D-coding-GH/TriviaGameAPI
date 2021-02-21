@@ -1,0 +1,124 @@
+.titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  width: 70%;
+  align-items: center;
+
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  padding: 10px;
+  border-top: 0px;
+  width: 70%;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.mainTable {
+  margin-top: 40px;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+.tryAgain {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  background: #ed3330;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  height: 60px;
+  width: 150px;
+}
+
+.tryAgain:hover{
+
+  background: #63b0da;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+
+
+}
+
+.logout {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  background: #ed3330;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  height: 60px;
+  width: 150px;
+}
+
+.logout:hover{
+
+  background: #63b0da;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+
+}
+
+
+.buts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* .userName {
+  border-right: solid;
+}
+
+.score {
+  border-right: solid;
+}
+
+.name {
+  border-right: solid;
+}
+
+.userScore {
+  border-right: solid;
+} */
